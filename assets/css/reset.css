@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+
+@font-face{
+    font-family: 'Noto Sans KR Black';
+    src: url(../fonts/NotoSansKR-Black.otf);
+}
+
+* { margin: 0; padding: 0;}
+
+html {
+    width: 100%;
+}
+body {
+    font-family: 'NotoSans', sans-serif;
+	color: #333;
+}
+html, body {
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
+}
+table, tr, th, td, input, select, option, textarea, button {
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
+}
+input, select, option, textarea, button{
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
+    outline: none;
+    background: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.0rem;
+}
+b, strong {
+    font-weight: 300;
+}
+i, em, address {
+    font-style: normal;
+}
+img, iframe, frameset, fieldset {
+    border: 0 none;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+}
+ul, ol, li {
+    list-style: none;
+}
+img, a, input, button, select {
+    display: block;
+}
+hr, legend, caption {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+input[type=radio], input[type=checkbox] {
+    display: none;
+}
