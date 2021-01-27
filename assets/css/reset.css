@@ -1,55 +1,66 @@
 @charset "utf-8";
 
-/***기본고정값***/
-body,p,h1,h2,h3,h4,dl,dt,dd{
-	margin: 0;
-	padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+
+@font-face{
+    font-family: 'Noto Sans KR Black';
+    src: url(../fonts/NotoSansKR-Black.otf);
 }
-body{
-	font-family: 'NotoSans', sans-serif;
+
+* { margin: 0; padding: 0;}
+
+html {
+    width: 100%;
+}
+body {
+    font-family: 'NotoSans', sans-serif;
 	color: #333;
 }
-ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+html, body {
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
 }
-a{
-	text-decoration: none;
+table, tr, th, td, input, select, option, textarea, button {
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
 }
-.cf:after{
-	content: "";
-	display: block;
-	clear: both;
+input, select, option, textarea, button{
+    font: 14px 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+	color: #000;
+    outline: none;
+    background: transparent;
 }
-.inner{
-	width: 1200px;
-	margin: 0 auto;
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.0rem;
 }
-#wrap{
-	width: 100%;
+b, strong {
+    font-weight: 300;
 }
-#container{
-	width: 100%;
+i, em, address {
+    font-style: normal;
 }
-
-/***fullpage***/
-#fullpage{
+img, iframe, frameset, fieldset {
+    border: 0 none;
 }
-
-.section{
-	height: 825px;
+table, tr, th, td {
+    border-collapse: collapse;
 }
-#section0{
+ul, ol, li {
+    list-style: none;
 }
-.section .fp-table{
-	height: 825px;
+img, a, input, button, select {
+    display: block;
 }
-#section0 .fp-tableCell{
+hr, legend, caption {
+    display: none;
 }
-#section1{}
-#section2{}
-#section3{}
-#section4{}
-#section5{}
-#section6{}
+a {
+    text-decoration: none;
+    color: #000;
+}
+input[type=radio], input[type=checkbox] {
+    display: none;
+}
